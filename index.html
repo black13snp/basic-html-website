@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<title>Love Meter</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>💖 Love Meter 💖</h1>
+
+<input type="text" id="name1" placeholder="Primul nume">
+<input type="text" id="name2" placeholder="Al doilea nume">
+
+<button onclick="calculateLove()">Calculează dragostea</button>
+
+<div class="result">
+<h2 id="percentage">0%</h2>
+
+<div class="bar">
+<div id="fill"></div>
+</div>
+
+<p id="message"></p>
+<button id="marriedBtn" onclick="window.location.href='certificate.html'" style="display:none;">
+<p class="certif">See Marriage Certificate 💍</p>
+</div>
+<p id="message"></p>
+
+
+</div>
+
+<script src="script.js"></script>
+
+</button>
+</body>
+</html>
