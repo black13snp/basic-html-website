@@ -9,18 +9,28 @@ return;
 }
 
 if(
+
 (name1=="EMA" && name2=="NONI") ||
-(name1=="NONI" && name2=="EMA")
-){
-document.getElementById("percentage").innerText="∞";
-document.getElementById("fill").style.width="100%";
-document.getElementById("message").innerText="💍 ALREADY MARRIED 💍";
-document.getElementById("marriedBtn").style.display="block";
-return;
-}
-if(
+(name1=="NONI" && name2=="EMA") ||
+
+(name1=="NONI" && name2=="EVA") ||
+(name1=="EVA" && name2=="NONI") ||
+
+(name1=="MARIAN" && name2=="EVA") ||
+(name1=="EVA" && name2=="MARIAN") ||
+
+(name1=="MARIAN" && name2=="EMA") ||
+(name1=="EMA" && name2=="MARIAN") ||
+
+(name1=="MARIAN" && name2=="EMANUELA") ||
+(name1=="EMANUELA" && name2=="MARIAN") ||
+
+(name1=="NONI" && name2=="EMA") ||
 (name1=="EMA" && name2=="NONI") ||
-(name1=="NONI" && name2=="EMA")
+
+(name1=="NONI" && name2=="EMANUELA") ||
+(name1=="EMANUELA" && name2=="NONI")
+
 ){
 document.getElementById("percentage").innerText="∞";
 document.getElementById("fill").style.width="100%";
